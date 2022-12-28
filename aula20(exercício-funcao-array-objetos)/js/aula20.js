@@ -30,7 +30,7 @@ console.log(pessoas)
        
         
 }
-    form.addEventListener('submit', recebeEventoForm);
+    form.addEventListener('submit', recebeEventoForm); /*Adiciona o evento*/
 }
 meuEscopo()
 
