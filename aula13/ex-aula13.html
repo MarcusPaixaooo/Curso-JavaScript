@@ -1,0 +1,33 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex - aula 12</title>
+</head>
+<body>
+   <script>
+    const nome = prompt('Digite seu nome');
+
+    document.body.innerHTML = (`Olá ${nome}<br/>`);
+    
+    document.body.innerHTML += (`Seu nome tem ${nome .length} letras<br/>`)
+
+    document.body.innerHTML += (`sua letra inicial é ${nome .charAt(0)}<br/>`)
+    document.body.innerHTML += (`sua letra final é ${nome .charAt(5)}<br/>`)
+    document.body.innerHTML += (`sua letra final está na posição ${nome .indexOf('s')}<br/>`)
+    document.body.innerHTML += (`sua letra inicial está na posição ${nome .lastIndexOf( 'M')}<br/>`)
+    document.body.innerHTML += (`Seu nome sem R fica ${nome .replace('r','')}<br/>`)
+    document.body.innerHTML += (`seu nome todo maiúsculo ${nome .toUpperCase()}<br/>`)
+    document.body.innerHTML += (`seu nome todo maiúculo ${nome .toLocaleUpperCase(0)}<br/>`)
+    document.body.innerHTML += (`suas duas letras do meio são ${nome .slice(2, 4)}<br/>`)
+
+    document.body.innerHTML += (`você é o famoso ${nome .concat(' otário')}<br/>`)
+
+
+
+
+
+   </script> 
+</body>
+</html>
