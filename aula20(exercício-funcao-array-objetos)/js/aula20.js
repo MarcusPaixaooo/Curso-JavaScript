@@ -33,23 +33,3 @@ console.log(pessoas)
     form.addEventListener('submit', recebeEventoForm); /*Adiciona o evento*/
 }
 meuEscopo()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* form.onsubmit = function (evento){
-      evento.preventDefault(); /*  Previni  o que que deveria 
-      acontecer por padrão dentro do site */
-/* alert('Cadastro conclúido!');
- console.log('Foi enviado')
-}; */
