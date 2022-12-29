@@ -1,3 +1,7 @@
+/*Aula de funções com a intenção de puxar os dados inseridos pelo usuário e 
+entrega-los no corpo da página*/
+
+
 function meuEscopo(){
     const form = document.querySelector('.form')
 const resultado = document.querySelector('.resultado')
