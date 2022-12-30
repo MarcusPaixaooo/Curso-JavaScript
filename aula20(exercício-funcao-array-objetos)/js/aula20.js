@@ -18,5 +18,11 @@ resultado.innerHTML += `Nome: ${nome.value}, Sobrenome: ${sobrenome.value}, Peso
     }
     form.addEventListener('submit', addEvento)
 }
+<<<<<<< HEAD
 
 meuEscopo()
+=======
+    form.addEventListener('submit', recebeEventoForm); /*Adiciona o evento*/
+}
+meuEscopo()
+>>>>>>> origin/main
